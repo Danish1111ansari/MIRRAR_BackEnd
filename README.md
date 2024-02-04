@@ -1,8 +1,8 @@
 # MIRRAR Backend
 ## Project Description 
 
--**Created a REST API for an e-commerce system using Node.js.** 
--**The API included the following features:**
+**-Created a REST API for an e-commerce system using Node.js.** 
+**-The API included the following features:**
 1. API to get all products
 2. API to get a specific product by ID
 3. API to create a new product
