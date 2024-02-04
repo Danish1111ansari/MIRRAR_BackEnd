@@ -80,85 +80,31 @@ Created a REST API for an e-commerce system using Node.js. The API includes the 
    git clone https://github.com/Danish1111ansari/MIRRAR_BackEnd.git
    cd MIRRAR_BackEnd
 
-open .env and write your url for the database.
+## Setting up the Database
 
-# Install dependencies:
-npm i  colors cors dotenv express mongoose morgan nodemon
+Open the `.env` file and replace `mongodb://your-mongodb-url` with the actual URL for your MongoDB database.
 
-# Run the apllication:
-npm run server / npm run start 
+## Installation
 
-# Test the API:
-opne the postman and hit the api:
+Install the required dependencies by running the following command in your terminal:
 
-1. API to get all products
-
-select the #get request and hit.
-http://localhost:8080/api/v1/product/all-products/
-
-2. API to get a specific product by ID
-
-select the #get requests and hit.
-http://localhost:8080/api/v1/product/get-product/_id
-you can get the id from the mongodb database of existing product.
-
-3. API to create a new product
-
-select the #post requests and hit.
-http://localhost:8080/api/v1/product/create-product
-navigate to body->json 
-and in the json 
-
-{
-  "name": "Adult Product",
-  "description": "This is a sample product",
-  "price": 29.99,
-  "variants": [
-    {
-      "name": "Small",
-      "sku": "LARG234",
-      "additionalCost": 5.00,
-      "stockCount": 100
-    }
-  ]
-}
+```bash
+npm install colors cors dotenv express mongoose morgan nodemon
 
 
-4. API to update a product by ID
+## Running the Application
+
+To start the application, use either of the following commands:
+
+```bash
+npm run server / npm run start
 
 
-select the #put requests and hit.
-http://localhost:8080/api/v1/product/update-product/_id
-you can get the id from the mongodb database of existing product.
-navigate to body->json 
-and in the json 
+## Testing the API with Postman
+-Open Postman.
+-Use the provided API endpoints:
 
-{
-  "name": "Child Product",
-  "description": "This is a sample product",
-  "price": 29.99,
-  "variants": [
-{
-      "name": "Small",
-      "sku": "LARG234",
-      "additionalCost": 5.00,
-      "stockCount": 100
-    }
-  ]
-}
-
-5. API to delete a product by ID
-   
-select the #delete request and hit.
-http://localhost:8080/api/v1/product/delete-product/_id
-you can get the id from the mongodb database of existing product.
-
-6. API to to search for products by name, description, or variant name
+**This provides a step-by-step guide for running the application and testing the API using Postman. Adjustments can be made based on your specific needs.**
 
 
-select the #get request and hit.
-http://localhost:8080/api/v1/product/search-product/slug
-slug can be any keyword based on you find the product .
 
-
-    
