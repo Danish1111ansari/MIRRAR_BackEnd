@@ -20,7 +20,7 @@
 
 Clone the repository to your local machine:
 
-git clone https://github.com/your-username/your-repo.git
+git clone https://github.com/Danish1111ansari/MIRRAR_BackEnd.git
 
 cd your_repo
 
