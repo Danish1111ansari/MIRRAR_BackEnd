@@ -82,7 +82,7 @@ Created a REST API for an e-commerce system using Node.js. The API includes the 
 
 ## Setting up the Database
 
-Open the `.env` file and replace `mongodb://your-mongodb-url` with the actual URL for your MongoDB database.
+Open the `.env` file and replace `mongodb://your-mongodb-url` with the actual URL for your MongoDB database or let it be if you want.
 
 ## Installation
 
