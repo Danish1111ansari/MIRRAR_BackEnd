@@ -24,6 +24,8 @@ git clone https://github.com/your-username/your-repo.git
 
 cd your_repo
 
+open .env and write your url for the database.
+
 # Install dependencies:
 npm i  colors cors dotenv express mongoose morgan nodemon
 
