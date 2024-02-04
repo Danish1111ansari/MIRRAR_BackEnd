@@ -88,16 +88,16 @@ Open the `.env` file and replace `mongodb://your-mongodb-url` with the actual UR
 
 Install the required dependencies by running the following command in your terminal:
 
-```bash
-npm install colors cors dotenv express mongoose morgan nodemon
+      ```bash
+      npm install colors cors dotenv express mongoose morgan nodemon
 
 
 ## Running the Application
 
 To start the application, use either of the following commands:
 
-```bash
-npm run server / npm run start
+      ```bash
+      npm run server / npm run start
 
 
 ## Testing the API with Postman
